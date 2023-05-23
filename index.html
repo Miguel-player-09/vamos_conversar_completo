@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login: Chat player 09</title>
+    <link rel="icon" href="miguel.jpg">
+</head>
+
+<body style=" text-align: center; background-color: rgb(74, 92, 255);">
+    <div class="container login-div" id="div_login" class="login-div">
+        <center>
+        <h1 style="color: rgb(0, 0, 0);">junte-se ao Miguel Player 09 e outras pessoas no chat player 09!</h1>
+
+        <img src="./miguel.jpg" alt="icon" class=""
+            style="border-radius: 50%; width: 200px; height: 200px; margin-bottom: 10px;">
+        <input type="text" id="user_name" class="form-control" placeholder="Nome de Usuário">
+
+        <button id="login_button" class="btn btn-primary" onclick="addUser();">Entrar</button>
+
+        <script src="chat.js"></script>
+        </center>
+    </div>
+</body>
+
+</html>

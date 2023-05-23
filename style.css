@@ -1,0 +1,31 @@
+body
+{
+background-image: linear-gradient(to right,  rgb(255, 106, 0), rgb(91, 145, 255) );
+}
+
+.login-div {
+    align-items: center; 
+    margin-top: 10%; 
+    margin-top: 10%; 
+    background-color: 
+    rgb(255, 255, 255); 
+    border-radius: 90px; 
+    height: 370px
+}
+
+#userName {
+    width: 500px; margin-left: 320px; margin-right: 320px; margin-bottom: 10px;
+}
+#loginButton {
+    margin-top: 10px;
+}
+
+#logout {
+    font-size: 20px;
+    float: right;
+    margin-left: 50%;
+}
+
+#top {
+    position: sticky;
+}
